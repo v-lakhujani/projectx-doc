@@ -171,3 +171,8 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# For using markdown 
+# source  =  https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
+extensions = ['myst_parser']
+
